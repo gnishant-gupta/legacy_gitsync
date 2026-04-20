@@ -1,0 +1,138 @@
+{
+    "IsAvailableForCommunity": false,
+    "Identifier": "SignalSciences",
+    "ShouldInstalledInSystem": false,
+    "Version": 1.0,
+    "DisplayName": "SignalSciences",
+    "Description": "Integration for SignalSciences",
+    "ImageBase64": null,
+    "SvgImage": null,
+    "IsCustom": false,
+    "PythonVersion": 3,
+    "IntegrationProperties": [
+        {
+            "IntegrationIdentifier": "SignalSciences",
+            "PropertyName": "API Root",
+            "PropertyDescription": "The base API root URL for Signal Sciences.",
+            "PropertyDisplayName": "API Root",
+            "PropertyType": 2,
+            "IsMandatory": true,
+            "Value": "https://dashboard.signalsciences.net",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1776674454650,
+            "ModificationTimeUnixTimeInMs": 1776674454650
+        },
+        {
+            "IntegrationIdentifier": "SignalSciences",
+            "PropertyName": "Email",
+            "PropertyDescription": "The email address associated with the Signal Sciences account.",
+            "PropertyDisplayName": "Email",
+            "PropertyType": 2,
+            "IsMandatory": true,
+            "Value": null,
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1776674454650,
+            "ModificationTimeUnixTimeInMs": 1776674454650
+        },
+        {
+            "IntegrationIdentifier": "SignalSciences",
+            "PropertyName": "API Token",
+            "PropertyDescription": "The API token used for authentication with Signal Sciences.",
+            "PropertyDisplayName": "API Token",
+            "PropertyType": 3,
+            "IsMandatory": true,
+            "Value": null,
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1776674454650,
+            "ModificationTimeUnixTimeInMs": 1776674454650
+        },
+        {
+            "IntegrationIdentifier": "SignalSciences",
+            "PropertyName": "Corporation Name",
+            "PropertyDescription": "The unique name of the organization or corporation context as defined in Signal Sciences.",
+            "PropertyDisplayName": "Corporation Name",
+            "PropertyType": 2,
+            "IsMandatory": true,
+            "Value": null,
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1776674454650,
+            "ModificationTimeUnixTimeInMs": 1776674454650
+        },
+        {
+            "IntegrationIdentifier": "SignalSciences",
+            "PropertyName": "Verify SSL",
+            "PropertyDescription": "If selected, the integration validates the SSL certificate when connecting to the Signal Sciences server.",
+            "PropertyDisplayName": "Verify SSL",
+            "PropertyType": 0,
+            "IsMandatory": false,
+            "Value": "true",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1776674454650,
+            "ModificationTimeUnixTimeInMs": 1776674454650
+        }
+    ],
+    "IntegrationSupportedActions": [
+        {
+            "Name": "Add IP to Allow List",
+            "Description": "Adds an IP address to the Allow List for a specific Site. Supported Entities: IP address.",
+            "Id": 88,
+            "CreationTimeUnixTimeInMs": 1776674454657,
+            "ModificationTimeUnixTimeInMs": 1776674454657
+        },
+        {
+            "Name": "Add IP to Block List",
+            "Description": "Use the **Add IP to Block List** action to add a specific IP address to the block list of a designated site. Supported Entities: IP address.",
+            "Id": 87,
+            "CreationTimeUnixTimeInMs": 1776674454657,
+            "ModificationTimeUnixTimeInMs": 1776674454657
+        },
+        {
+            "Name": "List Sites",
+            "Description": "Use the **List Sites** action to retrieve a list of all sites available within the corporation in Signal Sciences.",
+            "Id": 84,
+            "CreationTimeUnixTimeInMs": 1776674454657,
+            "ModificationTimeUnixTimeInMs": 1776674454657
+        },
+        {
+            "Name": "Ping",
+            "Description": "Use the **Ping** action to test the connectivity to Signal Sciences.",
+            "Id": 86,
+            "CreationTimeUnixTimeInMs": 1776674454657,
+            "ModificationTimeUnixTimeInMs": 1776674454657
+        },
+        {
+            "Name": "Remove IP from Allow List",
+            "Description": "Use the **Remove IP from Allow List** action to remove a specific IP address from the allow list of a designated site. Supported Entities: IP address.",
+            "Id": 83,
+            "CreationTimeUnixTimeInMs": 1776674454657,
+            "ModificationTimeUnixTimeInMs": 1776674454657
+        },
+        {
+            "Name": "Remove IP from Block List",
+            "Description": "Use the **Remove IP from Block List** action to remove a specific IP address from the block list of a designated site. Supported Entities: IP address.",
+            "Id": 85,
+            "CreationTimeUnixTimeInMs": 1776674454657,
+            "ModificationTimeUnixTimeInMs": 1776674454657
+        }
+    ],
+    "Categories": [
+        "Security"
+    ],
+    "HasConnectors": false,
+    "DocumentationLink": "https://www.fastly.com/documentation/signalsciences/api/",
+    "IsCertified": false,
+    "UploaderFullName": null,
+    "PublishComment": null,
+    "UploaderEmail": null,
+    "UploaderImageBase64": null,
+    "UploaderProfileLink": null,
+    "MinimumSystemVersion": 0.0,
+    "ProductionIntegrationIdentifier": null,
+    "Type": 0,
+    "Internal": false,
+    "GoogleSecOpsProduct": false,
+    "Id": 0,
+    "CreationTimeUnixTimeInMs": 1776674454650,
+    "ModificationTimeUnixTimeInMs": 1776674454650,
+    "Custom": false
+}
